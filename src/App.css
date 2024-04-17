@@ -3,12 +3,14 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: var(--very-light-grayish-blue);
 }
 
 .notifications__container{
     width: 50%;
-    padding-top: 1rem;
+    padding: 1rem;
+    border-radius: 12px;
     margin-inline: auto;
     display: flex;
     flex-direction: column;
@@ -36,9 +38,9 @@
 }
 
 .three {
-    background-color: blueviolet;
+    background-color: darkblue;
+    border-radius: 6px;
     color: white;
-    font-size: smaller;
     width: 1;
     height: 1;
     display: flex;
@@ -53,7 +55,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-size: 0.85rem;
+    font-size: 1rem;
 }
 
 
@@ -100,7 +102,7 @@
     height: fit-content;
     justify-content: flex-start;
     width: 90%;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     color: var(--dark-grayish-blue);
     word-spacing: 0.1rem;
 }
@@ -125,7 +127,7 @@
 }
 
 .lower__right__notification__container {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     color: var(--dark-grayish-blue);
 
 }
